@@ -1,14 +1,12 @@
 import 'package:flutter/material.dart';
-import 'screens/login_screen.dart';
+import 'screens/login.dart';
 
 void main() {
-  // Ensure Flutter is initialized before anything else
-  WidgetsFlutterBinding.ensureInitialized();
-  runApp(const FarmRentApp());
+  runApp(const MyApp());
 }
 
-class FarmRentApp extends StatelessWidget {
-  const FarmRentApp({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -16,9 +14,11 @@ class FarmRentApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'FarmRent',
       theme: ThemeData(
+        primaryColor: Colors.green,
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
         useMaterial3: true,
       ),
+      // Starts the app on the Login Screen
       home: const LoginScreen(),
     );
   }

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'renter_dashboard.dart'; // IMPORTANT: Connects to Dashboard
+import 'renter.dart'; // IMPORTANT: Connects to Dashboard
 
 class RoleSelectionScreen extends StatelessWidget {
   const RoleSelectionScreen({super.key});

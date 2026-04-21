@@ -10,18 +10,18 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  permission_handler: ^11.3.1
-
-
   cupertino_icons: ^1.0.8
+  permission_handler: ^11.3.1
   provider: ^6.1.1
   url_launcher: ^6.3.1
 
+  # ✅ ADD THESE INSIDE dependencies
+  image_picker: ^1.0.0
+  firebase_auth: ^4.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
   flutter_lints: ^6.0.0
 
 flutter:
